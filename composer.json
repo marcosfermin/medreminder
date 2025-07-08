@@ -1,0 +1,15 @@
+{
+  "name": "your-org/medreminder",
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^10.0",
+    "twilio/sdk": "^6.0",
+    "spatie/laravel-permission": "^5.0"
+  },
+  "require-dev": {
+    "laravel/breeze": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {"App\\": "app/"}
+  }
+}
