@@ -4,7 +4,7 @@
 
 1. Clone Repository
    ```bash
-   git clone https://github.com/your-org/medreminder.git
+   git clone https://github.com/marcosfermin/medreminder.git
    cd medreminder
 ````
 
