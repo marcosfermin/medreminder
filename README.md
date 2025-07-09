@@ -12,7 +12,7 @@
 
    ```bash
    composer install --optimize-autoloader --no-dev
-   npm install && npm run production
+   npm install && npm run build
    ```
 
 3. Configure Environment
