@@ -20,5 +20,4 @@ class SendReminderNotification extends Notification {
             config('services.twilio.from'),
             ['twiml'=>"<Response><Say>{$this->reminder->message_template}</Say></Response>"]
         );
-    }
-}
+    }}

@@ -20,5 +20,4 @@ class SendReminders extends Command {
             $r->logs()->create(['status'=>'failed','error_message'=>$e->getMessage(),'sent_at'=>now()]);
         }
         $r->update(['next_run'=>now()->addDay()]);
-    }
-}
+    }}
