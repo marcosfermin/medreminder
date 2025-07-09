@@ -6,7 +6,7 @@
    ```bash
    git clone https://github.com/marcosfermin/medreminder.git
    cd medreminder
-````
+```
 
 2. Install Dependencies
 
