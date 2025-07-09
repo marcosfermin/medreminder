@@ -16,5 +16,4 @@ Route::middleware(['auth','role:admin'])->prefix('admin')->name('admin.')->group
     Route::resource('users', App\Http\Controllers\Admin\UserController::class);
     Route::get('settings', [App\Http\Controllers\Admin\SettingsController::class,'index'])->name('settings');
 });
-
 require __DIR__.'/auth.php';
