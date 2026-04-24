@@ -1,0 +1,16 @@
+[Unit]
+Description=Medication Reminder Web App
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/medreminder
+ExecStart=/opt/medreminder/venv/bin/python /opt/medreminder/app.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
