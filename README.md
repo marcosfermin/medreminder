@@ -16,14 +16,6 @@ A self-hosted Flask web application that sends medication reminders via **Email*
 
 ---
 
-## 📸 Screenshots
-
-| Dashboard | Medications | History |
-|-----------|-------------|---------|
-| *(add your own)* | *(add your own)* | *(add your own)* |
-
----
-
 ## 🏗️ Tech Stack
 
 | Component | Technology |
